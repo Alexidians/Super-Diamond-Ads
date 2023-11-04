@@ -8,7 +8,7 @@ const SuperDiamondAds = {
    }
  },
  createPageAd: function (pageUrl, width, height) {
-  var ad = document.createElement("div")
+  var ad = document.createElement("SuperDiamondAd")
   ad.class = "SuperDiamondAd"
   var adIframe = document.createElement("iframe")
   adIframe.src = pageurl
@@ -18,7 +18,7 @@ const SuperDiamondAds = {
   return ad;
  },
  createImageAd: function (imageUrl, url, width, height) {
-  var ad = document.createElement("div")
+  var ad = document.createElement("SuperDiamondAd")
   ad.class = "SuperDiamondAd"
   ad.addEventListener('click', function handleClick(event) {
    open(url)
