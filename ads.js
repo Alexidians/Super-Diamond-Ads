@@ -31,3 +31,7 @@ const SuperDiamondAds = {
   return ad;
  }
 }
+<link rel="stylesheet" href="styles.css">
+SuperDiamondAds.css = document.createElement("link")
+SuperDiamondAds.css.rel = "stylesheet"
+SuperDiamondAds.css.href = "https://alexidians.github.io/Super-Diamond-Ads/ads.css"
